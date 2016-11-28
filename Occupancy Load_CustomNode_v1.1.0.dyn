@@ -1,0 +1,46 @@
+<Workspace Version="1.1.0.2094" X="-337.698505259348" Y="722.690034928538" zoom="0.952307392581016" Name="Home" Description="" RunType="Manual" RunPeriod="100" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <CoreNodeModels.Input.StringInput guid="ba754fc9-6984-4336-9e4b-ca4d8b429532" type="CoreNodeModels.Input.StringInput" nickname="Load Factor Parameter Name" x="724.573356328654" y="-248.457759643871" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>AR_OccupantLoadFactorTagged_PW</System.String>
+      <System.String value="AR_OccupantLoadFactorTagged_PW" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Input.StringInput guid="08d1ecd9-e93c-4d60-8917-fe2aee3ae0f9" type="CoreNodeModels.Input.StringInput" nickname="Occupant Load Parameter Name" x="742.798364956468" y="-162.175378550032" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>AR_OccupantLoadTagged_PW</System.String>
+      <System.String value="AR_OccupantLoadTagged_PW" />
+    </CoreNodeModels.Input.StringInput>
+    <DSRevitNodesUI.ElementsOfCategory guid="cc8ed248-89cd-4858-a160-aa18b7bdcc39" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="1006.74198231997" y="-361.470504572708" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" />
+    <DSRevitNodesUI.Categories guid="830702b6-9ba4-4b81-b4ea-8324bf1fcf7c" type="DSRevitNodesUI.Categories" nickname="Categories" x="779.344620249784" y="-360.584613009812" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="50:Areas" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="b2ab1964-62e5-4b14-8704-52e7435014dd" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Calculate Occupant Load" x="1268.88637768383" y="-362.665988528764" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <ID value="85b785a1-fead-4c1e-898a-7cc5a4c8fb5a" />
+      <Name value="Calculate Occupant Load" />
+      <Description value="Calculates the occupant load for all areas or rooms in a Revit project." />
+      <Inputs>
+        <Input value="RoomsOrAreas" />
+        <Input value="LoadFactorParameterName" />
+        <Input value="OccupantLoadParameterName" />
+      </Inputs>
+      <Outputs>
+        <Output value="Element" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="ba754fc9-6984-4336-9e4b-ca4d8b429532" start_index="0" end="b2ab1964-62e5-4b14-8704-52e7435014dd" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="08d1ecd9-e93c-4d60-8917-fe2aee3ae0f9" start_index="0" end="b2ab1964-62e5-4b14-8704-52e7435014dd" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="cc8ed248-89cd-4858-a160-aa18b7bdcc39" start_index="0" end="b2ab1964-62e5-4b14-8704-52e7435014dd" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="830702b6-9ba4-4b81-b4ea-8324bf1fcf7c" start_index="0" end="cc8ed248-89cd-4858-a160-aa18b7bdcc39" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="744139a7-9738-4168-a5ca-e94b365c5cdc" annotationText="Inputs" left="714.573356328654" top="-390.584613009812" width="238.77126392113" height="296.40923445978" fontSize="14" InitialTop="-360.584613009812" InitialHeight="296.40923445978" TextblockHeight="20" backgrouund="#FFC1D676">
+      <Models ModelGuid="ba754fc9-6984-4336-9e4b-ca4d8b429532" />
+      <Models ModelGuid="08d1ecd9-e93c-4d60-8917-fe2aee3ae0f9" />
+      <Models ModelGuid="830702b6-9ba4-4b81-b4ea-8324bf1fcf7c" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
