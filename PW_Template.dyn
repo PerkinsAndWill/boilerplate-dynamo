@@ -1,0 +1,53 @@
+<Workspace Version="1.2.0.2690" X="1938.70835868146" Y="709.768783039296" zoom="0.746119707927462" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="False">
+  <NamespaceResolutionMap />
+  <Elements />
+  <Connectors />
+  <Notes>
+    <Dynamo.Graph.Notes.NoteModel guid="61f9d678-8099-4f9d-93a1-3d0094656ed5" text="SUPPORT&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;Dynamo version: 0.9&#xD;&#xA;Revit version: 2015&#xD;&#xA;Required Packages: &lt;package names&gt;&#xD;&#xA;Last Update: 2015.12.17&#xD;&#xA;&#xD;&#xA;Author: Firstname Lastname" x="-2107.82469452952" y="-866.085831708784" />
+    <Dynamo.Graph.Notes.NoteModel guid="f44aee1e-c356-4693-a0aa-c7834265afc4" text="INSTRUCTIONS&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;Step 1)	Do the first step&#xD;&#xA;&#xD;&#xA;Step 2)	Do the second step..." x="-2107.82469452952" y="-706.590330461436" />
+    <Dynamo.Graph.Notes.NoteModel guid="ce264720-ccd1-40c2-880d-81d9218a4d43" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR BACK-END FUNCTIONALITY       " x="-2115.12465454823" y="-411.821760304277" />
+    <Dynamo.Graph.Notes.NoteModel guid="abe680e9-76de-4399-bbf0-aed9dd0f40db" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR INCOMMING REFFERENCES&#xD;&#xA;(FILE PATHS, GEOMETRIES...)" x="-2115.12465454823" y="-107.243365506268" />
+    <Dynamo.Graph.Notes.NoteModel guid="42b47a5f-7ce7-4fa0-9ade-89617148a826" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR USER INPUT (SUCH AS SLIDERS,    &#xD;&#xA; NUMBERS, ....)" x="-2115.12465454823" y="-271.274301544249" />
+    <Dynamo.Graph.Notes.NoteModel guid="13628fed-b887-474c-a3f6-143fb0bcdebb" text="_______________________________________________________&#xD;&#xA;&#xD;&#xA;1. DIVIDE THE SCRIPT INTO THE USER INTERFACE AND THE BACK-END&#xD;&#xA;&#xD;&#xA;2. BUILD THE SCRIPT WITH SMALL GROUPS OF NODES&#xD;&#xA;&#xD;&#xA;3. GROUPS SHOULD ALWAYS HAVE INPUT/OUTPUT &#xD;&#xA;&#xD;&#xA;4. RENAME INPUT/OUTPUT CONTAINERS TO DATA THEY CARRY&#xD;&#xA;&#xD;&#xA;5. COLOR-CODE GROUPS ACCORDING TO THE CATEGORIES IN THE TEMPLATE" x="-2460.62345528901" y="-368.44588685655" />
+    <Dynamo.Graph.Notes.NoteModel guid="88c1cb2b-032a-462f-a27c-4b02799c4c95" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR BLOCKS THAT EXPORT GEOMETRY AND DATA TO EXTERNAL PROGRAMS (INCLUDING REVIT)" x="-2115.12465454823" y="47.5422537319816" />
+    <Dynamo.Graph.Notes.NoteModel guid="f78a39ae-5385-4243-a666-743fcbabb9ef" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR IMPORTANT WATCH NODES     " x="-2115.12465454823" y="208.097109384176" />
+    <Dynamo.Graph.Notes.NoteModel guid="a1e44f97-4cd6-4ecb-bd16-188915e857a5" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR &quot;WORK IN PROGRESS&quot;" x="-2115.12465454823" y="486.632608116791" />
+    <Dynamo.Graph.Notes.NoteModel guid="959ea712-5ee5-4f54-8785-c1d15d20f0de" text="________________________________________________________&#xD;&#xA;&#xD;&#xA;FOR COMMENTS    " x="-2115.12465454823" y="345.82403749804" />
+    <Dynamo.Graph.Notes.NoteModel guid="69be5ea7-9f71-48e3-a67b-c06649e07fde" text="NOTES / ISSUES&#xD;&#xA;________________________________________________________&#xD;&#xA;&#xD;&#xA;This one part doesn't work yet&#xD;&#xA;" x="-2106.39472670843" y="-592.212454269529" />
+  </Notes>
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="cc3ade46-7224-4ba8-ba47-3f32272598f0" annotationText="DESIGN" left="-2125.12465454823" top="-464.821760304277" width="319" height="126" fontSize="36" InitialTop="-411.821760304277" InitialHeight="278.45529914593" TextblockHeight="43" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="ce264720-ccd1-40c2-880d-81d9218a4d43" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="c43e2787-3a32-4ed4-b780-97bcc7190346" annotationText="INPUT" left="-2125.12465454823" top="-160.243365506268" width="319" height="141" fontSize="36" InitialTop="-107.243365506268" InitialHeight="264.45529914593" TextblockHeight="43" backgrouund="#FFD4B6DB">
+      <Models ModelGuid="abe680e9-76de-4399-bbf0-aed9dd0f40db" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="1925b6e7-c50f-4ac9-ab7a-5ba22b03ec49" annotationText="CONTROL" left="-2125.12465454823" top="-324.274301544249" width="319" height="141" fontSize="36" InitialTop="-271.274301544249" InitialHeight="264.45529914593" TextblockHeight="43" backgrouund="#FFC1D676">
+      <Models ModelGuid="42b47a5f-7ce7-4fa0-9ade-89617148a826" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="b1479635-a78b-4e0f-9bb5-934355a08728" annotationText="GOOD PRACTICE GUIDELINES" left="-2470.62345528901" top="-464.44588685655" width="316" height="342" fontSize="36" InitialTop="-368.44588685655" InitialHeight="140" TextblockHeight="86" backgrouund="#FF48B9FF">
+      <Models ModelGuid="13628fed-b887-474c-a3f6-143fb0bcdebb" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="e0594a38-c841-41e9-b777-4ed042a071ac" annotationText="OUTPUT" left="-2125.12465454823" top="-5.4577462680184" width="319" height="141" fontSize="36" InitialTop="47.5422537319816" InitialHeight="264.45529914593" TextblockHeight="43" backgrouund="#FFFFAA45">
+      <Models ModelGuid="88c1cb2b-032a-462f-a27c-4b02799c4c95" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="c25e5da8-2185-4050-8760-8941c29a44ae" annotationText="MONITOR" left="-2125.12465454823" top="155.097109384176" width="319" height="126" fontSize="36" InitialTop="208.097109384176" InitialHeight="278.45529914593" TextblockHeight="43" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="f78a39ae-5385-4243-a666-743fcbabb9ef" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="eecc5ffb-067c-4d58-a926-c495125c767c" annotationText="WIP" left="-2125.12465454823" top="433.632608116791" width="319" height="126" fontSize="36" InitialTop="486.632608116791" InitialHeight="278.45529914593" TextblockHeight="43" backgrouund="#FFFF7BAC">
+      <Models ModelGuid="a1e44f97-4cd6-4ecb-bd16-188915e857a5" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="9e671d93-e1c4-459a-b3c6-27bd16378edd" annotationText="ANNOTATION" left="-2125.12465454823" top="292.82403749804" width="319" height="126" fontSize="36" InitialTop="345.82403749804" InitialHeight="140" TextblockHeight="43" backgrouund="#FF48B9FF">
+      <Models ModelGuid="959ea712-5ee5-4f54-8785-c1d15d20f0de" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="19fd8296-089e-4359-bda0-21081085f15a" annotationText="SCRIPT TITLE" left="-2117.82469452952" top="-919.085831708784" width="320.42996782109" height="428.873377439255" fontSize="36" InitialTop="-866.085831708784" InitialHeight="405.873377439255" TextblockHeight="43" backgrouund="#FF48B9FF">
+      <Models ModelGuid="61f9d678-8099-4f9d-93a1-3d0094656ed5" />
+      <Models ModelGuid="f44aee1e-c356-4693-a0aa-c7834265afc4" />
+      <Models ModelGuid="69be5ea7-9f71-48e3-a67b-c06649e07fde" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-32.1091003417969" eyeY="11.9505910873413" eyeZ="49.57470703125" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

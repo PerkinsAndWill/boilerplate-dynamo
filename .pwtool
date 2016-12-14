@@ -1,0 +1,28 @@
+{
+  "title":"Write the name of your script here",
+  "description":"Write a short description of what your script does here",
+  "coverImage":"./_PW/cover.png",
+  "authors":[{
+    "name":"Kyle Example",
+    "email":"kyle.example@example.com",
+    "role":"developer"
+  }],
+  "offices":[
+    "NewYork",
+    "SanFrancisco"
+  ],
+  "projects":[{
+    "name":"Example Project",
+    "number":"123456.000",
+	"marketSector":"CCC"
+  }],
+  "dependencies":[{
+    "author":"Autodesk",
+    "name":"Revit",
+    "version":"2016"
+  }],
+  "tags":[
+    "boilerplate",
+    "example"
+  ]
+}
